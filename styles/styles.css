@@ -24,18 +24,22 @@ p:first-of-type::first-letter{
 
 a[href^='http']:link { 
     color: brown;
+    text-decoration: wavy;
 }
 
 a[href^='http']:visited { 
     color: pink;
+    text-decoration: line-through;
 }
 
 a[href^='http']:active {
     color: purple;
+    text-decoration: none;
 }
  
 a[href^='http']:hover {
     color: coral;
+    text-decoration: double;
 }
 
 ul {
